@@ -35,6 +35,5 @@ export async function downloadLaunchData() {
 
 if (import.meta.main) {
   await downloadLaunchData();
-  log.info(JSON.stringify(import.meta));
   log.info(`Downloaded data for ${launches.size} SpaceX launches.`);
 }
