@@ -42,8 +42,6 @@ export async function downloadLaunchData() {
     return result["customers"];
   };
 
-  getCustomerPayload("5eb0e4b5b6c3bb0006eeb1e1");
-
   if (!response.ok) {
     log.warning("Problem downloading launch data.");
     throw new Error("Launch data download failed.");
