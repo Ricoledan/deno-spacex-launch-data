@@ -22,9 +22,9 @@ deno run --allow-net=api.spacexdata.com mod.ts
 
 ```
 INFO Downloading launch data...
-INFO {"flightNumber":1,"mission":"FalconSat"}
-INFO {"flightNumber":2,"mission":"DemoSat"}
-INFO {"flightNumber":3,"mission":"Trailblazer"}
+INFO {"flightNumber":1,"mission":"FalconSat","rocket":"Falcon 1","customers":["DARPA"]}
+INFO {"flightNumber":2,"mission":"DemoSat","rocket":"Falcon 1","customers":["DARPA"]}
+INFO {"flightNumber":3,"mission":"Trailblazer","rocket":"Falcon 1","customers":["NASA"]}
 ...
 INFO Downloaded data for 113 SpaceX launches.
 ```
